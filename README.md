@@ -30,7 +30,7 @@ src/
 │   ├── Footer.jsx            # Footer component
 │   ├── InsideTopBar.jsx      # Component inside the main page for additional navigation or actions
 │   ├── LeftBar.jsx           # Sidebar navigation component (Home, Dashboard, Contacts)
-│   ├── MailInsideMainPage.jsx# Component for displaying the mail content inside the main page
+│   ├── MailInsideMainPage.jsx # Component for displaying the mail content inside the main page
 │   ├── MainView.jsx          # Component that combines the main sections (LeftBar, CenterPage, RightSection)
 │   ├── RightSection.jsx      # Component for displaying additional details like lead info and activities
 │   ├── Theme.jsx             # Theme toggle component (Light/Dark mode)
