@@ -1,9 +1,10 @@
 # ReachInbox - Frontend Application
-This project is a frontend web application built with React.js, designed to replicate the UI and functionalities of a cold outreach management tool, similar to the one shown in the provided design screenshot.
+This project is a frontend web application built with React.js, designed to replicate the UI and functionalities of a cold outreach management tool.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Project Structure](#project-structure)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
@@ -15,6 +16,37 @@ This project is a frontend web application built with React.js, designed to repl
 ## Introduction
    Developed a web application using Java for the backend and JavaScript for the frontend to display real-time weather and air quality information, integrating Google Maps API and AirVisual API. 
 
+## Project Structure 
+```sh
+src/
+│
+├── assets/                   # Static assets like images, fonts, etc.
+│
+├── components/               # Reusable UI components
+│   ├── AllInbox.jsx          # Component for displaying all inboxes
+│   ├── AppBar.jsx            # Component for the top application bar with search and toggle button
+│   ├── CenterPage.jsx        # Central component for the main content
+│   ├── CustomMail.jsx        # Component for the custom mail editor
+│   ├── Footer.jsx            # Footer component
+│   ├── InsideTopBar.jsx      # Component inside the main page for additional navigation or actions
+│   ├── LeftBar.jsx           # Sidebar navigation component (Home, Dashboard, Contacts)
+│   ├── MailInsideMainPage.jsx# Component for displaying the mail content inside the main page
+│   ├── MainView.jsx          # Component that combines the main sections (LeftBar, CenterPage, RightSection)
+│   ├── RightSection.jsx      # Component for displaying additional details like lead info and activities
+│   ├── Theme.jsx             # Theme toggle component (Light/Dark mode)
+│
+├── pages/                    # Page components for different routes
+│
+├── App.css                   # Main CSS file for global styles
+├── App.jsx                   # Root component that renders all other components
+├── index.css                 # Global CSS for resetting and styling
+├── main.jsx                  # Main entry point for the React application
+│
+├── .gitignore                # Git ignore file
+├── eslint.config.js          # ESLint configuration for code linting
+├── index.html                # Main HTML file
+└── package-lock.json         # Dependency lock file for npm
+```
 
 
 ## Features
